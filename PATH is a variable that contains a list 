@@ -1,0 +1,2 @@
+PATH is a variable that contains a list of directories.
+It has precedence, left->right

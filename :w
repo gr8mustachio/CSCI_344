@@ -1,0 +1,7 @@
+#!/bin/bash
+
+FILE="allUsers.txt"
+
+while read -r line; do
+	du -s /home/"$line" 2>/dev/null >> fout.txt
+done

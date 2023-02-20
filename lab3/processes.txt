@@ -1,0 +1,197 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 Jan23 ?        00:00:44 /sbin/init
+root         2     0  0 Jan23 ?        00:00:00 [kthreadd]
+root         3     2  0 Jan23 ?        00:00:23 [ksoftirqd/0]
+root         5     2  0 Jan23 ?        00:00:00 [kworker/0:0H]
+root         7     2  0 Jan23 ?        00:00:34 [rcu_sched]
+root         8     2  0 Jan23 ?        00:00:00 [rcu_bh]
+root         9     2  0 Jan23 ?        00:00:00 [migration/0]
+root        10     2  0 Jan23 ?        00:00:08 [watchdog/0]
+root        11     2  0 Jan23 ?        00:00:00 [kdevtmpfs]
+root        12     2  0 Jan23 ?        00:00:00 [netns]
+root        13     2  0 Jan23 ?        00:00:00 [perf]
+root        14     2  0 Jan23 ?        00:00:00 [xenwatch]
+root        15     2  0 Jan23 ?        00:00:00 [xenbus]
+root        17     2  0 Jan23 ?        00:00:00 [khungtaskd]
+root        18     2  0 Jan23 ?        00:00:00 [writeback]
+root        19     2  0 Jan23 ?        00:00:00 [ksmd]
+root        20     2  0 Jan23 ?        00:00:00 [khugepaged]
+root        21     2  0 Jan23 ?        00:00:00 [crypto]
+root        22     2  0 Jan23 ?        00:00:00 [kintegrityd]
+root        23     2  0 Jan23 ?        00:00:00 [bioset]
+root        24     2  0 Jan23 ?        00:00:00 [kblockd]
+root        25     2  0 Jan23 ?        00:00:00 [ata_sff]
+root        26     2  0 Jan23 ?        00:00:00 [md]
+root        27     2  0 Jan23 ?        00:00:00 [devfreq_wq]
+root        30     2  0 Jan23 ?        00:00:07 [kswapd0]
+root        31     2  0 Jan23 ?        00:00:00 [vmstat]
+root        32     2  0 Jan23 ?        00:00:00 [fsnotify_mark]
+root        33     2  0 Jan23 ?        00:00:00 [ecryptfs-kthrea]
+root        49     2  0 Jan23 ?        00:00:00 [kthrotld]
+root        50     2  0 Jan23 ?        00:00:00 [acpi_thermal_pm]
+root        51     2  0 Jan23 ?        00:00:00 [bioset]
+root        52     2  0 Jan23 ?        00:00:00 [bioset]
+root        53     2  0 Jan23 ?        00:00:00 [bioset]
+root        54     2  0 Jan23 ?        00:00:00 [bioset]
+root        55     2  0 Jan23 ?        00:00:00 [bioset]
+root        56     2  0 Jan23 ?        00:00:00 [bioset]
+root        57     2  0 Jan23 ?        00:00:00 [bioset]
+root        58     2  0 Jan23 ?        00:00:00 [bioset]
+root        59     2  0 Jan23 ?        00:00:00 [scsi_eh_0]
+root        60     2  0 Jan23 ?        00:00:00 [scsi_tmf_0]
+root        61     2  0 Jan23 ?        00:00:00 [scsi_eh_1]
+root        62     2  0 Jan23 ?        00:00:00 [scsi_tmf_1]
+root        67     2  0 Jan23 ?        00:00:00 [ipv6_addrconf]
+root        69     2  0 Jan23 ?        00:00:00 [bioset]
+root        81     2  0 Jan23 ?        00:00:00 [deferwq]
+root        82     2  0 Jan23 ?        00:00:00 [charger_manager]
+root       129     2  0 Jan23 ?        00:00:00 [bioset]
+root       130     2  0 Jan23 ?        00:00:00 [bioset]
+root       131     2  0 Jan23 ?        00:00:00 [bioset]
+root       132     2  0 Jan23 ?        00:00:00 [bioset]
+root       133     2  0 Jan23 ?        00:00:00 [bioset]
+root       134     2  0 Jan23 ?        00:00:00 [bioset]
+root       135     2  0 Jan23 ?        00:00:00 [bioset]
+root       136     2  0 Jan23 ?        00:00:00 [bioset]
+root       137     2  0 Jan23 ?        00:00:00 [kpsmoused]
+root       242     2  0 Jan23 ?        00:00:00 [raid5wq]
+root       273     2  0 Jan23 ?        00:00:00 [bioset]
+root       293     2  0 Jan23 ?        00:00:09 [jbd2/xvda1-8]
+root       294     2  0 Jan23 ?        00:00:00 [ext4-rsv-conver]
+root       345     2  0 Jan23 ?        00:00:01 [kworker/0:1H]
+root       368     2  0 Jan23 ?        00:00:00 [iscsi_eh]
+root       371     2  0 Jan23 ?        00:00:00 [ib_addr]
+root       374     2  0 Jan23 ?        00:00:00 [ib_mcast]
+root       375     2  0 Jan23 ?        00:00:00 [ib_nl_sa_wq]
+root       377     2  0 Jan23 ?        00:00:00 [ib_cm]
+root       379     2  0 Jan23 ?        00:00:00 [iw_cm_wq]
+root       380     2  0 Jan23 ?        00:00:00 [rdma_cm]
+root       393     1  0 Jan23 ?        00:00:55 /lib/systemd/systemd-journald
+root       399     2  0 Jan23 ?        00:00:00 [kauditd]
+root       403     1  0 Jan23 ?        00:00:00 /sbin/lvmetad -f
+root       446     1  0 Jan23 ?        00:00:01 /lib/systemd/systemd-udevd
+systemd+   522     1  0 Jan23 ?        00:00:01 /lib/systemd/systemd-timesyncd
+root       744     1  0 Jan23 ?        00:00:00 /sbin/dhclient -1 -v -pf /run/dhclient.eth0.pid -lf /var/lib/dhcp/dhclient.eth0.leases -I -df /var/lib/dhcp/dhclient6.eth0.leases eth0
+root       895  1031  0 22:48 ?        00:00:00 sshd: arosete [priv]
+arosete    899     1  0 22:48 ?        00:00:00 /lib/systemd/systemd --user
+arosete    905   899  0 22:48 ?        00:00:00 (sd-pam)
+arosete    941   895  0 22:49 ?        00:00:00 sshd: arosete@pts/22
+arosete    942   941  0 22:49 pts/22   00:00:00 -bash
+root       964     1  0 Jan23 ?        00:00:00 /usr/sbin/acpid
+root       967     1  0 Jan23 ?        00:00:47 /sbin/iscsid
+root       968     1  0 Jan23 ?        00:03:23 /sbin/iscsid
+message+   981     1  0 Jan23 ?        00:00:47 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       986     1  0 Jan23 ?        00:00:21 /usr/bin/lxcfs /var/lib/lxcfs/
+root       988     1  0 Jan23 ?        00:04:56 /usr/lib/accountsservice/accounts-daemon
+root       994     1  0 Jan23 ?        00:00:16 /lib/systemd/systemd-logind
+root      1000     1  0 Jan23 ?        00:00:23 /usr/sbin/cron -f
+daemon    1003     1  0 Jan23 ?        00:00:00 /usr/sbin/atd -f
+syslog    1008     1  0 Jan23 ?        00:00:15 /usr/sbin/rsyslogd -n
+root      1031     1  0 Jan23 ?        00:00:09 /usr/sbin/sshd -D
+root      1038     1  0 Jan23 ?        00:00:09 /usr/lib/policykit-1/polkitd --no-debug
+root      1060     1  0 Jan23 ?        00:00:00 /sbin/mdadm --monitor --pid-file /run/mdadm/monitor.pid --daemonise --scan --syslog
+root      1147     1  0 Jan23 tty1     00:00:00 /sbin/agetty --noclear tty1 linux
+root      1160     1  0 Jan23 ttyS0    00:00:00 /sbin/agetty --keep-baud 115200 38400 9600 ttyS0 vt220
+root      1219     1  0 Jan23 ?        00:00:44 sendmail: MTA: accepting connections
+postgres  1221     1  0 Jan23 ?        00:00:11 /usr/lib/postgresql/9.5/bin/postgres -D /var/lib/postgresql/9.5/main -c config_file=/etc/postgresql/9.5/main/postgresql.conf
+postgres  1223  1221  0 Jan23 ?        00:00:00 postgres: checkpointer process   
+postgres  1224  1221  0 Jan23 ?        00:00:18 postgres: writer process   
+postgres  1225  1221  0 Jan23 ?        00:00:14 postgres: wal writer process   
+postgres  1226  1221  0 Jan23 ?        00:00:07 postgres: autovacuum launcher process   
+postgres  1227  1221  0 Jan23 ?        00:00:07 postgres: stats collector process   
+jythao    1233     1  0 Feb08 ?        00:00:02 /lib/systemd/systemd --user
+jythao    1236  1233  0 Feb08 ?        00:00:00 (sd-pam)
+root      1940  1031  0 22:50 ?        00:00:00 sshd: jcdodson [priv]
+jcdodson  1976  1940  0 22:50 ?        00:00:00 sshd: jcdodson@pts/21
+jcdodson  1978  1976  0 22:50 pts/21   00:00:00 -bash
+jtwhite   2004 11774  0 22:52 pts/2    00:00:01 vi runtime
+jythao    2033     1 47 Feb08 ?        1-07:50:49 /bin/bash ./background.sh
+jythao    2126     1 47 Feb08 ?        1-07:46:02 /bin/bash ./background.sh
+jvital    2867  5387  0 Feb08 pts/13   00:00:00 -bash
+jvital    2888  5387  0 Feb08 pts/14   00:00:00 -bash
+root      3548     2  1 23:05 ?        00:00:21 [kworker/u30:0]
+root      3581  1031  0 23:10 ?        00:00:00 sshd: jvital [priv]
+jvital    3618  3581  0 23:11 ?        00:00:00 sshd: jvital@pts/8
+jvital    3619  3618  0 23:11 pts/8    00:00:00 -bash
+jvital    3636  3619  0 23:11 pts/8    00:00:00 tmux
+jvital    3637  5387  0 23:11 pts/23   00:00:00 -bash
+jvital    3655  5387  0 23:11 pts/24   00:00:00 -bash
+root      3692     2  0 23:14 ?        00:00:00 [kworker/0:2]
+jvital    3915  3637  0 23:16 pts/23   00:00:00 vim myscript.sh
+alsmith6  4921 24469  3 23:25 pts/16   00:00:00 vim myscript3
+ltsmith   4922 26786  0 23:25 pts/19   00:00:00 /bin/bash ./time.sh
+ltsmith   4923  4922  0 23:25 pts/19   00:00:00 ps -ef
+jvital    5152     1  0 Jan31 ?        00:00:03 /lib/systemd/systemd --user
+jvital    5155  5152  0 Jan31 ?        00:00:00 (sd-pam)
+jvital    5387     1  0 Jan31 ?        00:00:03 tmux
+jvital    5388  5387  0 Jan31 pts/5    00:00:00 -bash
+jvital    5405  5387  0 Jan31 pts/7    00:00:00 -bash
+jvital    5422  5388  0 Jan31 pts/5    00:00:00 vim generator
+root     11356  1031  0 18:24 ?        00:00:00 sshd: tyler [priv]
+tyler    11569     1  0 18:24 ?        00:00:00 /lib/systemd/systemd --user
+tyler    11573 11569  0 18:24 ?        00:00:00 (sd-pam)
+tyler    11609 11356  0 18:24 ?        00:00:02 sshd: tyler@pts/1
+tyler    11610 11609  0 18:24 pts/1    00:00:02 -bash
+root     11728  1031  0 18:30 ?        00:00:00 sshd: jtwhite [priv]
+jtwhite  11731     1  0 18:30 ?        00:00:00 /lib/systemd/systemd --user
+jtwhite  11736 11731  0 18:30 ?        00:00:00 (sd-pam)
+jtwhite  11773 11728  4 18:30 ?        00:14:04 sshd: jtwhite@pts/2
+jtwhite  11774 11773  0 18:30 pts/2    00:00:01 -bash
+jvital   11852  2867  0 Feb08 pts/13   00:00:00 vim myscript.sh
+root     12092  1031  0 18:41 ?        00:00:00 sshd: jtwhite [priv]
+jtwhite  12129 12092  0 18:42 ?        00:00:09 sshd: jtwhite@pts/3
+jtwhite  12130 12129  0 18:42 pts/3    00:00:01 -bash
+root     22419  1031  0 19:13 ?        00:00:00 sshd: jtwhite [priv]
+jtwhite  22458 22419 10 19:13 ?        00:26:56 sshd: jtwhite@pts/6
+jtwhite  22459 22458  0 19:13 pts/6    00:00:00 -bash
+jtwhite  22486 22459 16 19:14 pts/6    00:41:36 -bash
+root     22811  1031  0 19:26 ?        00:00:00 sshd: jtwhite [priv]
+jtwhite  22848 22811  0 19:26 ?        00:00:00 sshd: jtwhite@pts/0
+jtwhite  22849 22848  0 19:26 pts/0    00:00:00 -bash
+aamerca+ 23030     1  0 19:39 ?        00:00:00 /lib/systemd/systemd --user
+aamerca+ 23034 23030  0 19:39 ?        00:00:00 (sd-pam)
+root     23770     2  2 20:42 ?        00:03:29 [kworker/u30:1]
+root     23830  1031  0 20:53 ?        00:00:00 sshd: ltsmith [priv]
+ltsmith  23832     1  0 20:53 ?        00:00:00 /lib/systemd/systemd --user
+ltsmith  23837 23832  0 20:53 ?        00:00:00 (sd-pam)
+ltsmith  23882 23830  0 20:53 ?        00:00:01 sshd: ltsmith@pts/4
+ltsmith  23883 23882  0 20:53 pts/4    00:00:00 -bash
+root     23912  1031  0 20:54 ?        00:00:00 sshd: ltsmith [priv]
+ltsmith  23950 23912  0 20:54 ?        00:00:00 sshd: ltsmith@pts/12
+ltsmith  23951 23950  0 20:54 pts/12   00:00:00 -bash
+root     24418  1031  0 21:14 ?        00:00:00 sshd: alsmith6 [priv]
+alsmith6 24421     1  0 21:14 ?        00:00:00 /lib/systemd/systemd --user
+alsmith6 24426 24421  0 21:14 ?        00:00:00 (sd-pam)
+alsmith6 24468 24418  0 21:14 ?        00:00:00 sshd: alsmith6@pts/16
+alsmith6 24469 24468  0 21:14 pts/16   00:00:00 -bash
+root     25285  1031  0 21:26 ?        00:00:00 sshd: bchen1 [priv]
+bchen1   25287     1  0 21:26 ?        00:00:00 /lib/systemd/systemd --user
+bchen1   25293 25287  0 21:26 ?        00:00:00 (sd-pam)
+bchen1   25338 25285  0 21:26 ?        00:00:00 sshd: bchen1@pts/17
+bchen1   25339 25338  0 21:26 pts/17   00:00:00 -bash
+root     25582  1031  0 21:35 ?        00:00:00 sshd: dacourtwright [priv]
+dacourt+ 25592     1  0 21:35 ?        00:00:00 /lib/systemd/systemd --user
+dacourt+ 25595 25592  0 21:35 ?        00:00:00 (sd-pam)
+dacourt+ 25656 25582  0 21:35 ?        00:00:00 sshd: dacourtwright@pts/10
+dacourt+ 25657 25656  0 21:35 pts/10   00:00:00 -bash
+root     25958  1031  0 21:45 ?        00:00:00 sshd: aamercado [priv]
+aamerca+ 26008 25958  0 21:45 ?        00:00:00 sshd: aamercado@notty
+aamerca+ 26009 26008  0 21:45 ?        00:00:00 /usr/lib/openssh/sftp-server
+root     26086     2  0 21:49 ?        00:00:00 [kworker/0:0]
+ltsmith  26310 23951  0 21:57 pts/12   00:00:03 vim time.sh
+root     26459  1031  0 22:02 ?        00:00:00 sshd: jcdodson [priv]
+jcdodson 26461     1  0 22:02 ?        00:00:00 /lib/systemd/systemd --user
+jcdodson 26466 26461  0 22:02 ?        00:00:00 (sd-pam)
+jcdodson 26504 26459  0 22:02 ?        00:00:00 sshd: jcdodson@pts/11
+jcdodson 26505 26504  0 22:02 pts/11   00:00:00 -bash
+root     26748  1031  0 22:10 ?        00:00:00 sshd: ltsmith [priv]
+ltsmith  26785 26748  0 22:10 ?        00:00:00 sshd: ltsmith@pts/19
+ltsmith  26786 26785  0 22:10 pts/19   00:00:00 -bash
+alsmith6 27726 24469  0 22:27 pts/16   00:00:00 -bash
+alsmith6 27727 27726  0 22:27 pts/16   00:00:00 /usr/bin/python3 /usr/lib/command-not-found -- :wq
+root     29103     2  1 22:32 ?        00:00:54 [kworker/u30:3]
+root     29164  1031  0 22:34 ?        00:00:00 sshd: net [priv]
+net      29166     1  0 22:34 ?        00:00:00 /lib/systemd/systemd --user
+net      29172 29166  0 22:34 ?        00:00:00 (sd-pam)
+net      29213 29164  0 22:34 ?        00:00:00 sshd: net@pts/20
+net      29214 29213  0 22:34 pts/20   00:00:00 -bash
